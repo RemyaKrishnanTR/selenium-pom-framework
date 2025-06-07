@@ -36,3 +36,12 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Screenshots folder
+screenshots/
+
+# Logs folder
+logs/
+
+# Test reports/output folder
+test-output/

@@ -7,7 +7,6 @@ import com.automation.tests.listeners.RetryListener;
 import com.automation.utils.DataProviders;
 import com.automation.utils.WindowHandler;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 import com.automation.pages.AmazonHomePage;
@@ -26,12 +25,12 @@ public class AmazonTest extends BaseTest {
         Assert.assertTrue(actualTitle.contains(expectedTitle),"Title does not match");
     }
     @Test(dataProvider = "searchItems",dataProviderClass = DataProviders.class)
-    public void searchItemTest(String item){
+    public void searchItemTest(String item,String color){
         AmazonHomePage hm= new AmazonHomePage(driver);
         hm.searchItem(item);
 
         SearchResultsPage resultsPage=new SearchResultsPage(driver);
-        resultsPage.searchProduct();
+        resultsPage.clickFirstProduct();
 
         WindowHandler.switchToNewWindow(driver);
 
@@ -40,14 +39,15 @@ public class AmazonTest extends BaseTest {
         String price=detailsPage.getPrice();
         logger.info("product price is{}", price);
         logger.info("product title is {}", title);
-
+        detailsPage.selectColor(color);
+        detailsPage.selectQuantity("2");
         detailsPage.addToCart();
         detailsPage.clickCart();
         String cartCount=detailsPage.getCartCount();
         logger.info("clicked on cart and the car count is {}",cartCount);
         Assert.assertTrue(detailsPage.isAddedToCart(title),"Product not added to cart");
         Assert.assertTrue(title.toLowerCase().contains(item.toLowerCase()),"product title does not contain searched item"+item);
-        Assert.assertEquals(cartCount,"1","product not added to cart");
+        Assert.assertEquals(cartCount,"2","product not added to cart");
     }
 
 }

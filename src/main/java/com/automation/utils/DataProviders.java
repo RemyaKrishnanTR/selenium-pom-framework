@@ -5,7 +5,7 @@ public class DataProviders {
     @DataProvider(name="searchItems")
     public Object[][] getSearchItems()
     {
-        return new Object[][]{{"pen"},{"bottle"}};
+        return new Object[][]{{"Noise Buds X Prime", "Silver Grey"}};
     }
 
 }

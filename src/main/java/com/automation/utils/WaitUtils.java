@@ -22,12 +22,12 @@ public class WaitUtils {
         return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
-    public WebElement waitForElementToBeClickable(By locator) {
-        return wait.until(ExpectedConditions.elementToBeClickable(locator));
+    public WebElement waitForElementToBeClickable(WebElement element) {
+        return wait.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public WebElement waitForPresenceOfElement(By locator) {
-        return wait.until(ExpectedConditions.presenceOfElementLocated(locator));
+    public WebElement waitForVisibilityOfElement(WebElement element) {
+        return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     public boolean waitForElementToDisappear(By locator) {
