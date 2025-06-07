@@ -1,0 +1,10 @@
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.automation.tests.listeners.RetryListener"/>
+    </listeners>
+    <test name="Test">
+        <classes>
+            <class name="com.automation.tests.AmazonTest"/>
+        </classes>
+    </test>
+</suite>

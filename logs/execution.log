@@ -1,0 +1,269 @@
+2025-05-24 20:57:37 INFO  com.automation.tests.AmazonTest - product price is99
+2025-05-24 20:57:37 INFO  com.automation.tests.AmazonTest - product title is Lexi Dax Smooth Pens_20 Pens_ Ball Pen I 0.7 mm Blue Ball Pen I Blue_Black_Red Ink Color Pens_ Pack of 20 Pens_1 Set of 20 Pen Box
+2025-05-24 20:58:09 INFO  com.automation.tests.AmazonTest - product price is559
+2025-05-24 20:58:09 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle 1 Ltr with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Adults, Gym, Kids School, Gifts and Office, Purple Mint
+2025-05-24 22:21:09 INFO  com.automation.tests.AmazonTest - product price is99
+2025-05-24 22:21:09 INFO  com.automation.tests.AmazonTest - product title is Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:21:14 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:21:14 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:21:14 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:21:40 INFO  com.automation.tests.AmazonTest - product price is329
+2025-05-24 22:21:40 INFO  com.automation.tests.AmazonTest - product title is Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:21:44 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:21:44 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:21:44 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -10…
+2025-05-24 22:21:57 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at screenshots/verifyTitle 20250524_222157.png
+2025-05-24 22:21:57 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atscreenshots/verifyTitle 20250524_222157.png
+2025-05-24 22:23:14 INFO  com.automation.tests.AmazonTest - product price is99
+2025-05-24 22:23:14 INFO  com.automation.tests.AmazonTest - product title is Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:23:18 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:23:18 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:23:18 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:23:40 INFO  com.automation.tests.AmazonTest - product price is329
+2025-05-24 22:23:40 INFO  com.automation.tests.AmazonTest - product title is Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:23:44 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:23:44 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:23:44 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -10…
+2025-05-24 22:23:58 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at screenshots/verifyTitle 20250524_222358.png
+2025-05-24 22:23:58 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atscreenshots/verifyTitle 20250524_222358.png
+2025-05-24 22:48:16 INFO  com.automation.tests.AmazonTest - product price is99
+2025-05-24 22:48:16 INFO  com.automation.tests.AmazonTest - product title is Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:48:23 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:48:23 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:48:23 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:48:44 INFO  com.automation.tests.AmazonTest - product price is329
+2025-05-24 22:48:44 INFO  com.automation.tests.AmazonTest - product title is Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:48:48 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:48:49 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:48:49 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -10…
+2025-05-24 22:54:05 INFO  com.automation.tests.AmazonTest - product price is99
+2025-05-24 22:54:05 INFO  com.automation.tests.AmazonTest - product title is Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:54:10 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:54:10 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:54:10 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Lexi I Jet Hi Flo I Next-Gen Ultra Smooth Ball Pen I Premium Hi Flow Ink | 0.7 mm Blue Ball Pen I Blue Ink Color_Pack of 5
+2025-05-24 22:54:38 INFO  com.automation.tests.AmazonTest - product price is329
+2025-05-24 22:54:38 INFO  com.automation.tests.AmazonTest - product title is Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:54:46 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-24 22:54:46 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-24 22:54:46 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -10…
+2025-05-24 22:55:00 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at screenshots/verifyTitle 20250524_225500.png
+2025-05-24 22:55:00 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atscreenshots/verifyTitle 20250524_225500.png
+2025-05-25 20:43:39 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250525_204339.png
+2025-05-25 20:43:39 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250525_204339.png
+2025-05-25 20:44:04 INFO  com.automation.tests.AmazonTest - product price is1,199
+2025-05-25 20:44:04 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sports, Gifts and Office, Blue Fuschia
+2025-05-25 20:44:12 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-25 20:44:12 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sports, Gifts and Office, Blue Fuschia
+2025-05-25 20:44:12 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sp…
+2025-05-25 20:44:26 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250525_204425.png
+2025-05-25 20:44:26 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250525_204425.png
+2025-05-25 21:04:53 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250525_210452.png
+2025-05-25 21:04:53 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250525_210452.png
+2025-05-25 21:05:22 INFO  com.automation.tests.AmazonTest - product price is1,199
+2025-05-25 21:05:22 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sports, Gifts and Office, Blue Fuschia
+2025-05-25 21:05:29 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-25 21:05:29 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sports, Gifts and Office, Blue Fuschia
+2025-05-25 21:05:29 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sp…
+2025-05-25 21:06:16 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250525_210615.png
+2025-05-25 21:06:16 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250525_210615.png
+2025-05-25 21:09:00 INFO  com.automation.tests.AmazonTest - product price is600
+2025-05-25 21:09:00 INFO  com.automation.tests.AmazonTest - product title is Submarine 917 Chanakya Metal Ball Pen Set (Pack of 5) – Motivational Quotes Engraved, Premium Shining Body, Smooth Blue Ink Refill – Gift for Professionals, Students & Office Use
+2025-05-25 21:09:04 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-25 21:09:04 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Submarine 917 Chanakya Metal Ball Pen Set (Pack of 5) – Motivational Quotes Engraved, Premium Shining Body, Smooth Blue Ink Refill – Gift for Professionals, Students & Office Use
+2025-05-25 21:09:04 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Submarine 917 Chanakya Metal Ball Pen Set (Pack of 5) – Motivational Quotes Engraved, Premium Shining Body, Smooth Blue Ink Refill – Gift for Professionals, Stud…
+2025-05-25 21:09:31 INFO  com.automation.tests.AmazonTest - product price is1,199
+2025-05-25 21:09:31 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sports, Gifts and Office, Blue Fuschia
+2025-05-25 21:09:39 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-25 21:09:39 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sports, Gifts and Office, Blue Fuschia
+2025-05-25 21:09:39 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 2 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Tritan Water bottle for Gym, Home, Travel, Sp…
+2025-05-25 21:10:19 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250525_211019.png
+2025-05-25 21:10:19 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250525_211019.png
+2025-05-26 21:10:38 INFO  com.automation.tests.AmazonTest - product price is120
+2025-05-26 21:10:38 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 21:10:39 INFO  com.automation.tests.AmazonTest - product price is120
+2025-05-26 21:10:39 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 21:10:43 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 2
+2025-05-26 21:10:43 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 21:10:43 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP…
+2025-05-26 21:10:44 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_211043.png
+2025-05-26 21:10:44 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_211043.png
+2025-05-26 21:10:45 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 2
+2025-05-26 21:10:45 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 21:10:45 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP…
+2025-05-26 21:10:46 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_211045.png
+2025-05-26 21:10:46 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_211045.png
+2025-05-26 21:11:12 INFO  com.automation.tests.AmazonTest - product price is699
+2025-05-26 21:11:12 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 21:11:12 INFO  com.automation.tests.AmazonTest - product price is699
+2025-05-26 21:11:12 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 21:11:21 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 21:11:21 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 21:11:21 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 21:11:21 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 21:11:21 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 21:11:21 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 21:12:05 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_211204.png
+2025-05-26 21:12:05 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_211204.png
+2025-05-26 21:12:06 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_211205.png
+2025-05-26 21:12:06 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_211205.png
+2025-05-26 22:01:35 INFO  com.automation.tests.AmazonTest - product price is120
+2025-05-26 22:01:35 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:01:40 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 2
+2025-05-26 22:01:40 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:01:40 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP…
+2025-05-26 22:01:40 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_220140.png
+2025-05-26 22:01:40 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_220140.png
+2025-05-26 22:02:01 INFO  com.automation.tests.AmazonTest - product price is699
+2025-05-26 22:02:01 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:02:07 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:02:07 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:02:07 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 22:02:19 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_220219.png
+2025-05-26 22:02:19 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_220219.png
+2025-05-26 22:05:07 INFO  com.automation.tests.AmazonTest - product price is120
+2025-05-26 22:05:07 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:05:10 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 2
+2025-05-26 22:05:10 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:05:10 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP…
+2025-05-26 22:05:10 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_220510.png
+2025-05-26 22:05:10 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_220510.png
+2025-05-26 22:05:32 INFO  com.automation.tests.AmazonTest - product price is699
+2025-05-26 22:05:32 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:05:36 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:05:36 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:05:36 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 22:05:49 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_220549.png
+2025-05-26 22:05:49 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_220549.png
+2025-05-26 22:08:27 INFO  com.automation.tests.AmazonTest - product price is21
+2025-05-26 22:08:27 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:08:32 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 6
+2025-05-26 22:08:32 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:08:32 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:08:32 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_220832.png
+2025-05-26 22:08:32 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_220832.png
+2025-05-26 22:08:54 INFO  com.automation.tests.AmazonTest - product price is699
+2025-05-26 22:08:54 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:09:00 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:09:00 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:09:00 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 22:09:13 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_220912.png
+2025-05-26 22:09:13 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_220912.png
+2025-05-26 22:12:07 INFO  com.automation.tests.AmazonTest - product price is120
+2025-05-26 22:12:07 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:12:10 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 2
+2025-05-26 22:12:11 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:12:11 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 25 BLUE PENS WITH COMFORTABLE GRIP |BLUE BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP…
+2025-05-26 22:12:11 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_221211.png
+2025-05-26 22:12:11 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_221211.png
+2025-05-26 22:12:33 INFO  com.automation.tests.AmazonTest - product price is699
+2025-05-26 22:12:33 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:12:37 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_221236.png
+2025-05-26 22:12:37 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_221236.png
+2025-05-26 22:13:16 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_221316.png
+2025-05-26 22:13:16 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_221316.png
+2025-05-26 22:16:33 INFO  com.automation.tests.AmazonTest - product price is21
+2025-05-26 22:16:33 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:16:36 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 6
+2025-05-26 22:16:36 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:16:36 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:16:54 INFO  com.automation.tests.AmazonTest - product price is21
+2025-05-26 22:16:54 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:16:57 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 6
+2025-05-26 22:16:57 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:16:57 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:17:16 INFO  com.automation.tests.AmazonTest - product price is21
+2025-05-26 22:17:16 INFO  com.automation.tests.AmazonTest - product title is Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:17:18 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 6
+2025-05-26 22:17:18 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:17:18 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds AEROSLIM Ball Pen SET - 5 Red PENS WITH COMFORTABLE GRIP |BALL PENS FOR WRITING | PEN FOR STUDENTS & OFFICE STATIONERY | 0.7 mm TIP SIZE
+2025-05-26 22:17:19 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_221718.png
+2025-05-26 22:17:19 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_221718.png
+2025-05-26 22:17:38 INFO  com.automation.tests.AmazonTest - product price is674
+2025-05-26 22:17:38 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:17:41 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:17:41 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:17:41 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 22:18:20 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_221820.png
+2025-05-26 22:18:20 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_221820.png
+2025-05-26 22:33:59 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 22:33:59 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 22:34:18 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 22:34:18 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 22:34:39 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 22:34:39 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 22:34:39 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_223439.png
+2025-05-26 22:34:39 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest|screenshot saved atC:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_223439.png
+2025-05-26 22:35:00 INFO  com.automation.tests.AmazonTest - product price is674
+2025-05-26 22:35:00 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:35:04 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:35:04 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:35:04 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 22:43:51 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 22:43:51 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 22:44:10 INFO  com.automation.tests.AmazonTest - product price is600
+2025-05-26 22:44:10 INFO  com.automation.tests.AmazonTest - product title is Submarine 917 Chanakya Metal Ball Pen Set (Pack of 5) – Motivational Quotes Engraved, Premium Shining Body, Smooth Blue Ink Refill – Gift for Professionals, Students & Office Use
+2025-05-26 22:44:12 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:44:12 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Submarine 917 Chanakya Metal Ball Pen Set (Pack of 5) – Motivational Quotes Engraved, Premium Shining Body, Smooth Blue Ink Refill – Gift for Professionals, Students & Office Use
+2025-05-26 22:44:12 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Submarine 917 Chanakya Metal Ball Pen Set (Pack of 5) – Motivational Quotes Engraved, Premium Shining Body, Smooth Blue Ink Refill – Gift for Professionals, Stud…
+2025-05-26 22:44:33 INFO  com.automation.tests.AmazonTest - product price is674
+2025-05-26 22:44:33 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:44:37 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:44:37 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:44:37 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 22:55:00 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 22:55:00 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 22:55:19 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 22:55:19 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 22:55:37 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 22:55:37 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 22:55:38 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_225537.png
+2025-05-26 22:55:38 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest | screenshot saved at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_225537.png
+2025-05-26 22:55:57 INFO  com.automation.tests.AmazonTest - product price is674
+2025-05-26 22:55:57 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:56:00 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 22:56:01 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook included, Red Skies
+2025-05-26 22:56:01 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for Adults 1 Litre with Motivational Time Marker, Leakproof Durable BPA Free Non-Toxic Bottle for Office, Gym, Detoxing eBook include…
+2025-05-26 22:56:40 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_225640.png
+2025-05-26 22:56:40 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle | screenshot saved at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_225640.png
+2025-05-26 23:01:13 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 23:01:13 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 23:01:33 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 23:01:33 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 23:01:52 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 23:01:52 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 23:01:53 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_230152.png
+2025-05-26 23:01:53 ERROR com.automation.tests.listeners.TestListener - Test Failed:searchItemTest | screenshot saved at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_230152.png
+2025-05-26 23:02:12 INFO  com.automation.tests.AmazonTest - product price is1,215
+2025-05-26 23:02:12 INFO  com.automation.tests.AmazonTest - product title is SENS LIFE Hydra Dual Stainless Steel Water Bottle Hot or Cold up to 24 Hours | Leak Proof | BPA Free | Eco-Friendly | School & Office| Adult & Kids | 800 ml | Rustic
+2025-05-26 23:02:16 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 23:02:16 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SENS LIFE Hydra Dual Stainless Steel Water Bottle Hot or Cold up to 24 Hours | Leak Proof | BPA Free | Eco-Friendly | School & Office| Adult & Kids | 800 ml | Rustic
+2025-05-26 23:02:16 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SENS LIFE Hydra Dual Stainless Steel Water Bottle Hot or Cold up to 24 Hours | Leak Proof | BPA Free | Eco-Friendly | School & Office| Adult & Kids | 800 ml | Rustic
+2025-05-26 23:02:56 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_230255.png
+2025-05-26 23:02:56 ERROR com.automation.tests.listeners.TestListener - Test Failed:verifyTitle | screenshot saved at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_230255.png
+2025-05-26 23:12:57 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 23:12:57 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 23:13:15 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 23:13:15 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 23:13:34 INFO  com.automation.tests.AmazonTest - product price is236
+2025-05-26 23:13:34 INFO  com.automation.tests.AmazonTest - product title is B2BYogi Personalized Natural Bamboo Ballpoint Pen, Double Ring Design, Metal Silver Clip, 14.3 cm Length
+2025-05-26 23:13:52 INFO  com.automation.tests.AmazonTest - product price is640
+2025-05-26 23:13:52 INFO  com.automation.tests.AmazonTest - product title is Printdoot Personalized Pen with Name, Customized Parker Classic Stainless Steel CT Ball Pen with name engraved on it a gift for teacher, professor, sir and madam on teacher day
+2025-05-26 23:13:52 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_231352.png
+2025-05-26 23:13:52 ERROR com.automation.tests.listeners.TestListener - Test Failed: searchItemTest | screenshot saved at C:\ProjectAuto\AutomationFramework/screenshots/searchItemTest 20250526_231352.png
+2025-05-26 23:14:12 INFO  com.automation.tests.AmazonTest - product price is329
+2025-05-26 23:14:12 INFO  com.automation.tests.AmazonTest - product title is Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-26 23:14:15 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-05-26 23:14:15 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -1000 ml Bottle Pink Blue
+2025-05-26 23:14:15 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Boldfit Water Bottles Stainless Steel Water Bottle 1 Litre Steel Water Bottles for School, Office, Home, Gym 1 Liter Water Bottle for Men Leakproof, Rust Free Steel Bottle -10…
+2025-05-26 23:15:08 INFO  com.automation.utils.ScreenshotUtils - screenshot saved successfully at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_231507.png
+2025-05-26 23:15:08 ERROR com.automation.tests.listeners.TestListener - Test Failed: verifyTitle | screenshot saved at C:\ProjectAuto\AutomationFramework/screenshots/verifyTitle 20250526_231507.png
+2025-06-07 20:56:03 INFO  com.automation.tests.AmazonTest - product price is350
+2025-06-07 20:56:03 INFO  com.automation.tests.AmazonTest - product title is Reynolds BRITE 60 CT JAR BLUE I Lightweight Ball Pen With Comfortable Grip for Extra Smooth Writing I School and Office Stationery | 0.7mm Tip Size | Pen for BTS
+2025-06-07 20:56:07 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-06-07 20:56:07 INFO  com.automation.pages.ProductDetailsPage - Expected Title: Reynolds BRITE 60 CT JAR BLUE I Lightweight Ball Pen With Comfortable Grip for Extra Smooth Writing I School and Office Stationery | 0.7mm Tip Size | Pen for BTS
+2025-06-07 20:56:07 INFO  com.automation.pages.ProductDetailsPage - Cart Title: Reynolds BRITE 60 CT JAR BLUE I Lightweight Ball Pen With Comfortable Grip for Extra Smooth Writing I School and Office Stationery | 0.7mm Tip Size | Pen for BTS
+2025-06-07 20:56:29 INFO  com.automation.tests.AmazonTest - product price is1,199
+2025-06-07 20:56:29 INFO  com.automation.tests.AmazonTest - product title is SOLARA Sipper Water Bottle for adults 2 Litre, Leakproof, BPA-Free & Durable Tritan, Water Bottle for Gym, Travel & Office, Motivational Time Marker, 2 Ltr Sipper Bottle with straw, Blue Fuschcia
+2025-06-07 20:56:33 INFO  com.automation.tests.AmazonTest - clicked on cart and the car count is 1
+2025-06-07 20:56:33 INFO  com.automation.pages.ProductDetailsPage - Expected Title: SOLARA Sipper Water Bottle for adults 2 Litre, Leakproof, BPA-Free & Durable Tritan, Water Bottle for Gym, Travel & Office, Motivational Time Marker, 2 Ltr Sipper Bottle with straw, Blue Fuschcia
+2025-06-07 20:56:33 INFO  com.automation.pages.ProductDetailsPage - Cart Title: SOLARA Sipper Water Bottle for adults 2 Litre, Leakproof, BPA-Free & Durable Tritan, Water Bottle for Gym, Travel & Office, Motivational Time Marker, 2 Ltr Sipper Bottle w…
