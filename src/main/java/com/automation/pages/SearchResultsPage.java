@@ -36,4 +36,9 @@
             }
 
         }
+
+        public boolean verifyTitleContains(String keyword)
+        {
+            return driver.getTitle().toLowerCase().contains(keyword.toLowerCase());
+        }
     }

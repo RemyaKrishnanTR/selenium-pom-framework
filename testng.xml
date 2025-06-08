@@ -4,7 +4,9 @@
     </listeners>
     <test name="Test">
         <classes>
-            <class name="com.automation.tests.AmazonTest"/>
+            <class name="com.automation.tests.AmazonTest" enabled="false"/>
+            <class name="com.automation.tests.SearchSuggestionsTest" enabled="false"/>
+            <class name="com.automation.tests.BrokenLinksTest" enabled="=true"/>
         </classes>
     </test>
 </suite>

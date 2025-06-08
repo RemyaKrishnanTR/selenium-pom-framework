@@ -47,7 +47,7 @@ public class ProductDetailsPage extends BasePage {
     }
 
     public String getProductTitle(){
-        WebElement productTitleElement= wait.waitForVisibilityOfElement(productTitle);
+        WebElement productTitleElement= wait.waitForElementToBeVisible(productTitle);
         return productTitleElement.getText();
     }
 
@@ -79,7 +79,7 @@ public class ProductDetailsPage extends BasePage {
     {
         try {
 
-            WebElement cartTitleElement = wait.waitForVisibilityOfElement(cartItemTitle);
+            WebElement cartTitleElement = wait.waitForElementToBeVisible(cartItemTitle);
             String actualTitle = cartTitleElement.getText().trim();
             logger.info("Expected Title: {}", expectedTitle);
             logger.info("Cart Title: {}", actualTitle);
@@ -100,7 +100,7 @@ public class ProductDetailsPage extends BasePage {
     {
         try {
             logger.info("waiting for quantity to get selected");
-            wait.waitForVisibilityOfElement(quantitydd);
+            wait.waitForElementToBeVisible(quantitydd);
             if (quantitydd.isDisplayed() && quantitydd.isEnabled()) {
                 Select select = new Select(quantitydd);
                 select.selectByVisibleText(quantity);

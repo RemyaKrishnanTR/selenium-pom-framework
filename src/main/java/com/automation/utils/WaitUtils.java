@@ -18,16 +18,12 @@ public class WaitUtils {
         this.wait = new WebDriverWait(driver, Duration.ofSeconds(timeout));
     }
 
-    public WebElement waitForElementToBeVisible(By locator) {
-        return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+    public WebElement waitForElementToBeVisible(WebElement element) {
+        return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     public WebElement waitForElementToBeClickable(WebElement element) {
         return wait.until(ExpectedConditions.elementToBeClickable(element));
-    }
-
-    public WebElement waitForVisibilityOfElement(WebElement element) {
-        return wait.until(ExpectedConditions.visibilityOf(element));
     }
 
     public boolean waitForElementToDisappear(By locator) {

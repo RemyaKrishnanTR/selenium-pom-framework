@@ -27,7 +27,7 @@ public class AmazonTest extends BaseTest {
     @Test(dataProvider = "searchItems",dataProviderClass = DataProviders.class)
     public void searchItemTest(String item,String color){
         AmazonHomePage hm= new AmazonHomePage(driver);
-        hm.searchItem(item);
+        hm.enterSearchText(item);
 
         SearchResultsPage resultsPage=new SearchResultsPage(driver);
         resultsPage.clickFirstProduct();

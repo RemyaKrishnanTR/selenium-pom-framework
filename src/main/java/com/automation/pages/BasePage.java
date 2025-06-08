@@ -4,6 +4,10 @@ import com.automation.utils.WaitUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class BasePage {
     protected WebDriver driver;
@@ -20,13 +24,16 @@ public class BasePage {
         return driver.findElement(locator);
     }
 
-    protected void click(By locator)
+    protected void click(WebElement element)
     {
-        getElement(locator).click();
+        WebElement ele=wait.waitForElementToBeClickable(element);
+        ele.click();
     }
-    protected void enterText(By locator,String text)
+    protected void enterText(WebElement element,String text)
     {
-        getElement(locator).sendKeys(text);
+        WebElement ele=wait.waitForElementToBeVisible(element);
+        ele.clear();
+        ele.sendKeys(text);
     }
     protected String getPageTitle()
     {
