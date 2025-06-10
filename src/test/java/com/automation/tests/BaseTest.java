@@ -12,7 +12,6 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver","C:/Drivers/chromedriver.exe");
         driver=new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.amazon.in");
         Thread.sleep(10000);
     }
 

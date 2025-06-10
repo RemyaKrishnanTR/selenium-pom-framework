@@ -1,7 +1,7 @@
 package com.automation.tests.listeners;
 
-import com.automation.Reports.ExtentManager;
-import com.automation.Reports.ExtentTestManager;
+import com.automation.reports.ExtentManager;
+import com.automation.reports.ExtentTestManager;
 import com.automation.tests.AmazonTest;
 import com.automation.tests.BaseTest;
 import com.automation.utils.ScreenshotUtils;
@@ -9,13 +9,9 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.Status;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class TestListener extends com.automation.tests.BaseTest implements ITestListener {
     private static final Logger logger= LogManager.getLogger(TestListener.class);

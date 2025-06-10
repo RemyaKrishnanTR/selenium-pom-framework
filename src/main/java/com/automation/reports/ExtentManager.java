@@ -1,4 +1,4 @@
-package com.automation.Reports;
+package com.automation.reports;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
