@@ -2,23 +2,29 @@ package com.automation.tests;
 
 import com.automation.pages.WebTablePage;
 import com.automation.utils.ConfigReader;
+import com.automation.utils.ExcelUtil;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.StringJoiner;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import static com.automation.constants.Constants.EXCEL_PATH;
+
 public class WebTableTest extends BaseTest {
 
     WebTablePage webTablePage;
     private static final Logger logger= LogManager.getLogger(WebTableTest.class);
 
-    @Test(enabled = false)
+    @Test(enabled = true)
     public void readWebTableData()
     {
         driver.get(ConfigReader.get("base.url.webtables"));
@@ -38,6 +44,43 @@ public class WebTableTest extends BaseTest {
     }
 
     @Test(enabled = true)
+    public void exportWebTableToExcel() throws IOException {
+
+        driver.get(ConfigReader.get("base.url.webtables"));
+        webTablePage=new WebTablePage(driver);
+        List<String> headers=webTablePage.getHeaders();
+        List<List<String>> tabledata=new ArrayList<>();
+
+        for(WebElement row: webTablePage.getAllRows())
+        {
+            List<String> rowdata=new ArrayList<>();
+            for(WebElement col: webTablePage.getColumnsInRow(row))
+            {
+                rowdata.add(col.getText().trim());
+            }
+            tabledata.add(rowdata);
+        }
+        ExcelUtil.writeDataToExcel(EXCEL_PATH,"Webtable",headers,tabledata);
+        logger.info("webtable exported to excel"+EXCEL_PATH);
+        Assert.assertTrue(new File(EXCEL_PATH).exists(),"Excel file not created");
+    }
+
+
+    @Test(enabled = true)
+     public void validateExportedExcel() throws IOException {
+        driver.get(ConfigReader.get("base.url.webtables"));
+        webTablePage = new WebTablePage(driver);
+
+        List<String> expectedHeaders=webTablePage.getHeaders();
+        int expectedCount=webTablePage.getAllRows().size();
+        List<Integer> criticalCols=List.of(0,3);
+
+        boolean result=ExcelUtil.validateExcel(EXCEL_PATH,expectedHeaders,expectedCount,criticalCols);
+        Assert.assertTrue(result,"validation failed,Excel contents does not match");
+    }
+
+
+    @Test(enabled = true)
     public void validateHeaders()
     {
         driver.get(ConfigReader.get("base.url.webtables"));
@@ -50,8 +93,5 @@ public class WebTableTest extends BaseTest {
                 "Current Price (Rs)",
                 "% Change");
         Assert.assertEquals(actualheaders,expectedheaders,"Table headers did not match expected columns");
-
-
-
     }
 }
