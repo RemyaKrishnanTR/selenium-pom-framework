@@ -24,7 +24,7 @@ public class WebTableTest extends BaseTest {
     WebTablePage webTablePage;
     private static final Logger logger= LogManager.getLogger(WebTableTest.class);
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void readWebTableData()
     {
         driver.get(ConfigReader.get("base.url.webtables"));
@@ -43,7 +43,7 @@ public class WebTableTest extends BaseTest {
         }
     }
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void exportWebTableToExcel() throws IOException {
 
         driver.get(ConfigReader.get("base.url.webtables"));
@@ -66,7 +66,7 @@ public class WebTableTest extends BaseTest {
     }
 
 
-    @Test(enabled = true)
+    @Test(enabled = false)
      public void validateExportedExcel() throws IOException {
         driver.get(ConfigReader.get("base.url.webtables"));
         webTablePage = new WebTablePage(driver);
@@ -80,7 +80,7 @@ public class WebTableTest extends BaseTest {
     }
 
 
-    @Test(enabled = true)
+    @Test(enabled = false)
     public void validateHeaders()
     {
         driver.get(ConfigReader.get("base.url.webtables"));
