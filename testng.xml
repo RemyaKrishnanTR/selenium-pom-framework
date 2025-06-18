@@ -11,6 +11,7 @@
             <class name="com.automation.tests.FileDownloadTest" enabled="false"/>
             <class name="com.automation.tests.WebTableTest" enabled="false"/>
             <class name="com.automation.tests.SortTableTest" enabled="false"/>
+            <class name="com.automation.tests.AutoSuggestionTest" enabled="true"/>
         </classes>
     </test>
 </suite>

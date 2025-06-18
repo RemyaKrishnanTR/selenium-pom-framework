@@ -23,6 +23,7 @@ public class WebTableTest extends BaseTest {
 
     WebTablePage webTablePage;
     private static final Logger logger= LogManager.getLogger(WebTableTest.class);
+    ExcelUtil excelUtil;
 
     @Test(enabled = false)
     public void readWebTableData()
@@ -60,7 +61,8 @@ public class WebTableTest extends BaseTest {
             }
             tabledata.add(rowdata);
         }
-        ExcelUtil.writeDataToExcel(EXCEL_PATH,"Webtable",headers,tabledata);
+        excelUtil=new ExcelUtil(EXCEL_PATH,"Webtable");
+        excelUtil.writeDataToExcel(EXCEL_PATH,"Webtable",headers,tabledata);
         logger.info("webtable exported to excel"+EXCEL_PATH);
         Assert.assertTrue(new File(EXCEL_PATH).exists(),"Excel file not created");
     }
@@ -74,8 +76,8 @@ public class WebTableTest extends BaseTest {
         List<String> expectedHeaders=webTablePage.getHeaders();
         int expectedCount=webTablePage.getAllRows().size();
         List<Integer> criticalCols=List.of(0,3);
-
-        boolean result=ExcelUtil.validateExcel(EXCEL_PATH,expectedHeaders,expectedCount,criticalCols);
+        excelUtil=new ExcelUtil(EXCEL_PATH,"Webtable");
+        boolean result=excelUtil.validateExcel(EXCEL_PATH,expectedHeaders,expectedCount,criticalCols);
         Assert.assertTrue(result,"validation failed,Excel contents does not match");
     }
 

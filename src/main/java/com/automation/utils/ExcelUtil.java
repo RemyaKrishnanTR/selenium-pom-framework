@@ -1,18 +1,31 @@
 package com.automation.utils;
 import java.io.*;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
-import com.google.common.collect.Table;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.openqa.selenium.WebElement;
 
 public class ExcelUtil {
-    public static void writeDataToExcel(String filepath,String sheetName,List<String> headers,List<List<String>> rows) throws IOException {
-        Workbook workbook = new XSSFWorkbook();
+    private String filepath;
+    private String filename;
+    private Workbook workbook;
+    private Sheet sheet;
+    private FileInputStream fis;
+
+    public ExcelUtil(String filepath,String sheetName) throws IOException {
+        this.filepath=filepath;
+        this.filename=filename;
+        fis=new FileInputStream(filepath);
+        workbook=new XSSFWorkbook(fis);
+        sheet= workbook.getSheet(sheetName);
+
+    }
+
+    public void writeDataToExcel(String filepath, String sheetName, List<String> headers, List<List<String>> rows) throws IOException {
         Sheet sheet = workbook.createSheet(sheetName);
 
         Row headerRow = sheet.createRow(0);
@@ -40,13 +53,9 @@ public class ExcelUtil {
         }
     }
 
-    public static boolean validateExcel(String filepath,List<String> expectedHeaders, int expectedCount,List<Integer> criticalCols) throws IOException {
-      FileInputStream fis=new FileInputStream(filepath);
-      Workbook workbook=new XSSFWorkbook(fis);
-      Sheet sheet=workbook.getSheetAt(0);
-
-        // Validate headers
-      Row headerRow= sheet.getRow(0);
+    public boolean validateExcel(String filepath, List<String> expectedHeaders, int expectedCount, List<Integer> criticalCols) throws IOException
+    {
+        Row headerRow= sheet.getRow(0);
       for(int i=0;i<expectedHeaders.size();i++)
       {
           if(!headerRow.getCell(i).getStringCellValue().equalsIgnoreCase(expectedHeaders.get(i)))
@@ -76,5 +85,86 @@ public class ExcelUtil {
       }
 
         return true;
+    }
+
+    public List<Map<String,String>> readFromExcel(String filePath,String sheetName) throws IOException {
+
+        List<Map<String,String>> data = new ArrayList<>();
+        Row headerRow=sheet.getRow(0);
+
+        for(int i=1;i<=sheet.getLastRowNum();i++)
+        {
+            Row row= sheet.getRow(i);
+            if(row==null)continue;
+            Map<String,String> rowData=new HashMap<>();
+            for(int j=0;j<row.getLastCellNum();j++)
+            {
+                String key=headerRow.getCell(j).getStringCellValue();
+                String value=getCellValue(row.getCell(j));
+                rowData.put(key,value);
+            }
+            data.add(rowData);
+        }
+        return data;
+    }
+
+
+    public List<List<String>> readCredentials(String filepath,String sheetname)
+    {
+        List<List<String>> credentialsList= new ArrayList<>();
+        for(int i=1;i<=sheet.getLastRowNum();i++)
+        {
+            Row row=sheet.getRow(i);
+            if(row==null)continue;
+            List<String> credentials=new ArrayList<>();
+            for(int j=0;j<row.getLastCellNum();j++)
+            {
+                String cred=getCellValue(row.getCell(j));
+                credentials.add(cred);
+            }
+            credentialsList.add(credentials);
+        }
+        return credentialsList;
+    }
+
+    public String getCellValue(Cell cell)
+    {
+        if(cell==null)
+        {
+            return "";
+        }
+        return switch(cell.getCellType())
+        {
+            case STRING->cell.getStringCellValue();
+            case BOOLEAN -> String.valueOf(cell.getBooleanCellValue());
+            case NUMERIC -> String.valueOf(cell.getNumericCellValue());
+            default -> "";
+        };
+    }
+
+    public void writeResultToExcel(String testId, String result) throws IOException {
+        for(int i=1;i<=sheet.getLastRowNum();i++) {
+            Row row = sheet.getRow(i);
+            if (row == null) continue;
+            if (row.getCell(0)!=null && row.getCell(0).getStringCellValue().equalsIgnoreCase(testId)) {
+                Cell resultCell = row.createCell(4);
+                resultCell.setCellValue(result);
+
+                Cell timeStampCell = row.createCell(5);
+                String time = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").format(new Date());
+                timeStampCell.setCellValue(time);
+                break;
+            }
+        }
+        FileOutputStream fos=new FileOutputStream(filepath);
+        workbook.write(fos);
+        fos.close();
+    }
+
+
+
+
+    public void close() throws IOException {
+        workbook.close();
     }
 }

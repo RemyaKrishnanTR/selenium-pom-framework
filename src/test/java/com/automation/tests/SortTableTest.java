@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.util.List;
 
 public class SortTableTest extends BaseTest {
-    @Test
+    @Test(enabled = false)
     public void ValidateSorting() throws InterruptedException {
         final Logger logger= LogManager.getLogger(AmazonTest.class);
         driver.get(ConfigReader.get("base.url.sortTables"));

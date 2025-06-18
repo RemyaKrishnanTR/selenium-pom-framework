@@ -15,7 +15,7 @@ Only then, onTestFailure() from your ITestListener is called for final failure*/
 public class RetryAnalyzer implements IRetryAnalyzer {
 
     private int retryCount = 0;
-    private static final int maxRetryCount = 3;  // retry max 3 times
+    private static final int maxRetryCount = 1;  // retry max 3 times
 
     @Override
     public boolean retry(ITestResult result) {
