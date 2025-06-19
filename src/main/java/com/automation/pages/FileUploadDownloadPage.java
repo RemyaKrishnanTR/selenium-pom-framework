@@ -16,6 +16,9 @@ public class FileUploadDownloadPage {
     @FindBy(tagName = "h3")
     private WebElement uploadSuccessMsg;
 
+    @FindBy(id="uploaded-files")
+    private WebElement uploadedFile;
+
     public FileUploadDownloadPage(WebDriver driver)
     {
         this.driver=driver;
@@ -30,5 +33,10 @@ public class FileUploadDownloadPage {
     public String getFileUploadConfirmation()
     {
         return uploadSuccessMsg.getText();
+    }
+
+    public String getUploadedFileName()
+    {
+        return uploadedFile.getText();
     }
 }

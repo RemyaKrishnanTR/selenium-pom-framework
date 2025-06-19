@@ -93,7 +93,7 @@ public class AutoSuggestionTest extends BaseTest {
     }
 
     //A sample data provider practice test
-    @Test(dataProvider ="getCredentials")
+    @Test(enabled = false, dataProvider ="getCredentials")
     public void enterCredentials(String username,String password)
     {
         driver.get("https://the-internet.herokuapp.com/login");

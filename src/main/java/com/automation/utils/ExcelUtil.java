@@ -3,10 +3,7 @@ import java.io.*;
 import java.text.SimpleDateFormat;
 import java.util.*;
 
-import org.apache.poi.ss.usermodel.Cell;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.*;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtil {
@@ -95,17 +92,30 @@ public class ExcelUtil {
         for(int i=1;i<=sheet.getLastRowNum();i++)
         {
             Row row= sheet.getRow(i);
-            if(row==null)continue;
+            if(row==null || isRowEmpty(row))continue;
             Map<String,String> rowData=new HashMap<>();
             for(int j=0;j<row.getLastCellNum();j++)
             {
-                String key=headerRow.getCell(j).getStringCellValue();
+                String key=headerRow.getCell(j).getStringCellValue().trim();
                 String value=getCellValue(row.getCell(j));
                 rowData.put(key,value);
             }
             data.add(rowData);
         }
         return data;
+    }
+
+    public boolean isRowEmpty(Row row)
+    {
+        for(int c=0;c<row.getLastCellNum();c++)
+        {
+            Cell cell= row.getCell(c);
+            if(cell!=null && cell.getCellType()!= CellType.BLANK && !getCellValue(cell).isEmpty())
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
 

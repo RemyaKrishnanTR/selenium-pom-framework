@@ -12,12 +12,14 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 import java.util.StringJoiner;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import static com.automation.constants.Constants.EXCEL_PATH;
+import static com.automation.constants.Constants.WEBTABLE_EXCEL_PATH;
 
 public class WebTableTest extends BaseTest {
 
@@ -96,4 +98,20 @@ public class WebTableTest extends BaseTest {
                 "% Change");
         Assert.assertEquals(actualheaders,expectedheaders,"Table headers did not match expected columns");
     }
+
+    @Test(enabled = false)
+    public void webTableValidation() throws IOException {
+        driver.get(ConfigReader.get("base.url.demowebtable"));
+        excelUtil=new ExcelUtil(WEBTABLE_EXCEL_PATH,"webTable");
+        webTablePage=new WebTablePage(driver);
+        List<Map<String,String>> excelData=excelUtil.readFromExcel(WEBTABLE_EXCEL_PATH,"webTable");
+        List<Map<String,String>> uiData=webTablePage.getWebTableData();
+        Assert.assertEquals(uiData.size(),excelData.size(),"data count not match");
+        for(int i=0;i<uiData.size();i++) {
+            Map<String, String> actualData = uiData.get(i);
+            Map<String, String> expectedData = excelData.get(i);
+            Assert.assertEquals(actualData, expectedData, "Row mismatch at" + i + 1);
+        }
+    }
+
 }
