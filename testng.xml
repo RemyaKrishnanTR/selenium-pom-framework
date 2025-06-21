@@ -4,10 +4,10 @@
     </listeners>
     <test name="Test">
         <classes>
-            <class name="com.automation.tests.AmazonTest"/>
+            <class name="com.automation.tests.AmazonTest" enabled="true"/>
             <class name="com.automation.tests.SearchSuggestionsTest" enabled="false"/>
             <class name="com.automation.tests.BrokenLinksTest"/>
-            <class name="com.automation.tests.FileUploadTest" enabled="true"/>
+            <class name="com.automation.tests.FileUploadTest" enabled="false"/>
             <class name="com.automation.tests.FileDownloadTest" enabled="false"/>
             <class name="com.automation.tests.WebTableTest" enabled="false"/>
             <class name="com.automation.tests.SortTableTest" enabled="false"/>

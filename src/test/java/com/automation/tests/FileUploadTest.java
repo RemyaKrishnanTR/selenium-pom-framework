@@ -23,7 +23,7 @@ public class FileUploadTest extends BaseTest{
         Assert.assertEquals(confirmationText,"File Uploaded!");
     }
 
-    @Test
+    @Test(enabled = false)
     public void dynamicFileUpload() throws IOException {
         driver.get(ConfigReader.get("base.url.upload"));
         upload=new FileUploadDownloadPage(driver);

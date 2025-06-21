@@ -37,5 +37,16 @@ public class WaitUtils {
     public boolean waitForTitle(String partialText) {
         return wait.until(ExpectedConditions.titleContains(partialText));
     }
+
+    public void waitForAllElementsToBeVisible(By locator) {
+        wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
+    }
+
+    public void waitForNumberOfElementsToBeMoreThan(By locator, int count)
+    {
+        wait.until(ExpectedConditions.numberOfElementsToBeMoreThan(locator,count));
+    }
+
+
 }
 
