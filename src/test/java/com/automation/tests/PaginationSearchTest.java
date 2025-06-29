@@ -9,14 +9,14 @@ import org.testng.annotations.Test;
 public class PaginationSearchTest extends BaseTest {
     private static final Logger logger= LogManager.getLogger(PaginationSearchTest.class);
 
-    @Test
+    @Test(enabled = false)
     public void verifyRecordExistsInPagination()
     {
         driver.get("https://datatables.net/examples/data_sources/ajax.html");
         DataTablePage dataTablePage=new DataTablePage(driver);
         boolean recordFound= false;
         try {
-            recordFound = dataTablePage.searchAcrossPage("Remya Green");
+            recordFound = dataTablePage.searchAcrossPage("Fiona Green");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }

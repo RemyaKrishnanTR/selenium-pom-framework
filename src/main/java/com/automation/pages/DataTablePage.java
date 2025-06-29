@@ -45,16 +45,27 @@ public class DataTablePage {
             {
                 break;
             }
-            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
-            WebElement nextBtn = wait.until(ExpectedConditions.presenceOfElementLocated(nextButton));
+            Thread.sleep(1000);
+            List<WebElement> nextButtons=driver.findElements(nextButton);
+            if(nextButtons.isEmpty())
+            {
+                logger.error("next button is disabled, reached last page");
+                break;
+            }
+
+
+            WebElement nextBtn = nextButtons.get(0);
             String nextClass = nextBtn.getAttribute("class");
-            if (nextClass.contains("disabled")) {
+
+            if (nextClass!=null && nextClass.contains("disabled")) {
                 logger.error("Reached last page but record not found.");
                 break;
             }
+
             WebElement oldFirstRow = rows.get(0);
             nextBtn.click();
-            //wait.until(ExpectedConditions.stalenessOf(oldFirstRow));
+            WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+            wait.until(ExpectedConditions.stalenessOf(oldFirstRow));
         }
         return isFound;
     }
