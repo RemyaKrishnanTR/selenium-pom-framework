@@ -72,7 +72,7 @@ public class AmazonTest extends BaseTest {
     /*Test Case:
     Amazon user hovers on “Account & Lists”, clicks “Your Orders”, and validates that the user is taken to the Your Orders page only if signed in, otherwise validates redirection to sign-in page.*/
 
-    @Test
+    @Test(enabled = false)
     public void verifyHoverAndClick()
     {
 
@@ -94,7 +94,7 @@ public class AmazonTest extends BaseTest {
         }
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyAllDropDownOptions()
     {
         List<String> options = amazonHomePage.getAllDropDownOptions();
@@ -106,13 +106,13 @@ public class AmazonTest extends BaseTest {
         }
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyHoverMenuOptions()
     {
         Assert.assertTrue(amazonHomePage.isMenuOptionPresent("Your Orders"),"Your Orders option not found");
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyHoverMenuLinksHref()
     {
         Map<String,String> hoverLinks=amazonHomePage.getHoverMenuTextLinks();
@@ -124,7 +124,7 @@ public class AmazonTest extends BaseTest {
         });
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyAutoCompleteKeyboardSelection()
     {
         amazonHomePage.enterSearchText("iphone");

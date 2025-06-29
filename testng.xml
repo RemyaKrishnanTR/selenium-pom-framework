@@ -12,6 +12,8 @@
             <class name="com.automation.tests.WebTableTest" enabled="false"/>
             <class name="com.automation.tests.SortTableTest" enabled="false"/>
             <class name="com.automation.tests.AutoSuggestionTest" enabled="false"/>
+            <class name="com.automation.tests.TestCaseGeneratorTest" enabled="false"/>
+            <class name="com.automation.tests.PaginationSearchTest" enabled="true"/>
         </classes>
     </test>
 </suite>
