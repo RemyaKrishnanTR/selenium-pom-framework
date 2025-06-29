@@ -13,6 +13,8 @@ A modular UI automation framework built using **Java, Selenium WebDriver, TestNG
   - Search & Add to Cart
   - File Upload with dynamic file generation
   - Web Table validation with Excel
+  - Pagination handling across dynamic tables
+  - Test Case Generator using input combinations
   - Mouse Hover & Multi-level Menus
   - Auto-suggestions with keyboard navigation
 
