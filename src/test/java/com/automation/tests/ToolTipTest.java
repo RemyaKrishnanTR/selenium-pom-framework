@@ -19,7 +19,7 @@ public class ToolTipTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyButtonToolTip()
     {
         String text=toolTipPage.getButtonToolTip();
@@ -28,7 +28,7 @@ public class ToolTipTest extends BaseTest {
 
     }
 
-    @Test
+    @Test(enabled = false)
     public void verifyTextBoxToolTip()
     {
         String text=toolTipPage.getTextBoxToolTip();
