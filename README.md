@@ -31,24 +31,24 @@ Key Features:
 
 
 
-📁 Project Structure:
+Project Structure:
 src/
 ├── main/
 │   └── java/
 │       └── com.project.framework/
-│           ├── base/               # Driver setup and base test class
-│           ├── pages/              # Page classes (AmazonPage, UploadPage, etc.)
-│           ├── utilities/          # WebDriver, Excel, Screenshot, Logging utils
+│           ├── base/               
+│           ├── pages/             
+│           ├── utilities/          
 ├── test/
 │   └── java/
 │       └── com.project.tests/
-│           ├── amazon/             # Amazon tests
-│           ├── calendar/           # Calendar picker test
-│           ├── upload/             # File upload test
-│           └── common/             # BaseTest, RetryAnalyzer, etc.
+│           ├── amazon/             
+│           ├── calendar/           
+│           ├── upload/             
+│           └── common/             
 └── resources/
-    ├── config.properties           # Environment & config data
-    └── log4j.properties            # Logging configuration
+    ├── config.properties       
+    └── log4j.properties
 
 
 Scenarios Covered:
