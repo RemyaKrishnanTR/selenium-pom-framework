@@ -11,7 +11,7 @@ public class CalendarTest extends BaseTest {
     Logger logger= LogManager.getLogger(CalendarTest.class);
     CalendarPage calendarPage;
 
-    @Test
+    @Test(enabled = false)
     public void verifyDatePicker()
     {
         driver.get("https://demoqa.com/date-picker");

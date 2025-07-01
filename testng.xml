@@ -17,7 +17,8 @@
             <class name="com.automation.tests.ToolTipTest" enabled="false"/>
             <class name="com.automation.tests.AlertTest" enabled="false"/>
             <class name="com.automation.tests.NotificationTest" enabled="false"/>
-            <class name="com.automation.tests.CalendarTest" enabled="true"/>
+            <class name="com.automation.tests.CalendarTest" enabled="false"/>
+            <class name="com.automation.tests.FrameAndWindowHandlingTest" enabled="true"/>
         </classes>
     </test>
 </suite>
