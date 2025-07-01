@@ -22,33 +22,24 @@ Key Features:
 - Data-Driven Testing: Using TestNG DataProviders and Excel-based input.
 - Utility Classes: WebDriver utilities, wait handling, Excel utilities, etc.
 - Screenshot Captures: On failure and step-wise if required.
-- Realistic test scenarios like:
-  - Amazon-style search & cart validation
-  - File upload, tooltips, alerts
-  - Web tables + Excel read/write
-  - Frames/iFrames, calendar pickers
-  - Multi-window/tab handling
 
 
+## Project Structure
 
-Project Structure:
-src/
-├── main/
-│   └── java/
-│       └── com.project.framework/
-│           ├── base/               
-│           ├── pages/             
-│           ├── utilities/          
-├── test/
-│   └── java/
-│       └── com.project.tests/
-│           ├── amazon/             
-│           ├── calendar/           
-│           ├── upload/             
-│           └── common/             
-└── resources/
-    ├── config.properties       
-    └── log4j.properties
+```
+├── src
+│   ├── main
+│   │   ├── base
+│   │   ├── pages
+│   │   ├── utils
+│   │   └── factory
+│   └── test
+│       ├── tests
+│       └── dataproviders
+├── testng.xml
+├── pom.xml
+└── README.md
+```
 
 
 Scenarios Covered:
