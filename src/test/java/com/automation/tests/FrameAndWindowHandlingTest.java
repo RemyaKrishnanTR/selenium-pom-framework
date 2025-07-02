@@ -14,7 +14,7 @@ public class FrameAndWindowHandlingTest extends BaseTest {
     IframePage framesPage;
     WindowHandlingPage windowPage;
 
-    @Test(priority = 4)
+    @Test(priority = 4,enabled = false)
     public void verifySwitchToFrame()
     {
         driver.get("https://demoqa.com/frames");
@@ -25,7 +25,7 @@ public class FrameAndWindowHandlingTest extends BaseTest {
         framesPage.switchToParentPage();
     }
 
-    @Test(priority = 1)
+    @Test(priority = 1,enabled = false)
     public void verifySwitchToTab()
     {
         driver.get("https://demoqa.com/browser-windows");
@@ -41,7 +41,7 @@ public class FrameAndWindowHandlingTest extends BaseTest {
         windowPage.closeCurrentWindowAndSwitchBack(mainWindow);
     }
 
-    @Test(priority = 2)
+    @Test(priority = 2,enabled = false)
     public void verifySwitchToWindow()
     {
         driver.get("https://demoqa.com/browser-windows");

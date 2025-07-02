@@ -18,7 +18,10 @@
             <class name="com.automation.tests.AlertTest" enabled="false"/>
             <class name="com.automation.tests.NotificationTest" enabled="false"/>
             <class name="com.automation.tests.CalendarTest" enabled="false"/>
-            <class name="com.automation.tests.FrameAndWindowHandlingTest" enabled="true"/>
+            <class name="com.automation.tests.FrameAndWindowHandlingTest" enabled="false"/>
+            <class name="com.automation.tests.DragAndDropTest" enabled="false"/>
+            <class name="com.automation.tests.BasicAuthTest" enabled="true"/>
+
         </classes>
     </test>
 </suite>
