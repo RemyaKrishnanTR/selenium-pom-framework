@@ -2,6 +2,7 @@
 
     import org.apache.logging.log4j.LogManager;
     import org.apache.logging.log4j.Logger;
+    import org.openqa.selenium.By;
     import org.openqa.selenium.JavascriptExecutor;
     import org.openqa.selenium.WebDriver;
     import org.openqa.selenium.WebElement;
@@ -40,5 +41,11 @@
         public boolean verifyTitleContains(String keyword)
         {
             return driver.getTitle().toLowerCase().contains(keyword.toLowerCase());
+        }
+
+        public void applyFilter(String filter)
+        {
+
+            driver.findElement(By.xpath("//div[@id='brandsRefinements']//span[contains(text(),'"+filter+"')]")).click();
         }
     }

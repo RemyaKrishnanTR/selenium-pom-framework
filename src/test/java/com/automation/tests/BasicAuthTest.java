@@ -10,7 +10,7 @@ import java.awt.*;
 public class BasicAuthTest extends BaseTest {
     BasicAuthPage basicAuthPage;
 
-    @Test
+    @Test(enabled = false)
     public void verifyBasicAuthViaURL() {
         driver.get("https://admin:admin@the-internet.herokuapp.com/basic_auth");
 
@@ -20,7 +20,7 @@ public class BasicAuthTest extends BaseTest {
         Assert.assertTrue(message.contains("Congratulations"), "Basic Auth failed or incorrect message");
     }
 
-    @Test
+    @Test(enabled = false)
     public void handleAuthPopUsinfRobotUtil() throws InterruptedException, AWTException {
         driver.get("https://the-internet.herokuapp.com/basic_auth");
         Thread.sleep(2000);

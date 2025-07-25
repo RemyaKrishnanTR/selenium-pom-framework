@@ -21,6 +21,14 @@
             <class name="com.automation.tests.FrameAndWindowHandlingTest" enabled="false"/>
             <class name="com.automation.tests.DragAndDropTest" enabled="false"/>
             <class name="com.automation.tests.BasicAuthTest" enabled="true"/>
+            <class name="com.automation.tests.api.APIValidationTest" enabled="true"/>
+            <class name="com.automation.tests.api.NestedJSONResponseTest" enabled="true"/>
+            <class name="com.automation.tests.api.wireMockIntegrationGetTest" enabled="true"/>
+            <class name="com.automation.tests.api.WireMockIntegrationPostTest" enabled="true"/>
+            <class name="com.automation.tests.api.RetryFlakyAPITest" enabled="true"/>
+            <class name="com.automation.tests.DBConnectionTest" enabled="true"/>
+            <class name="com.automation.tests.DBRollBackTest" enabled="true"/>
+            <class name="com.automation.tests.RegexPatternTest" enabled="true"/>
 
         </classes>
     </test>

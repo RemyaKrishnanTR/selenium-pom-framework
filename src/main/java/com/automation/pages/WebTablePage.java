@@ -51,9 +51,8 @@ public class WebTablePage {
                 String value = cells.get(i).getText().trim();
                 rowData.put(key, value);
             }
-            if (!rowData.get("First Name").isEmpty()) {
-                tableData.add(rowData);
-            }
+
+
         }
         return tableData;
     }

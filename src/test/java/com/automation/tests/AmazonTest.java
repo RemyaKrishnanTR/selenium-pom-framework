@@ -8,6 +8,9 @@ import com.automation.tests.listeners.RetryListener;
 import com.automation.utils.ConfigReader;
 import com.automation.utils.DataProviders;
 import com.automation.utils.WindowHandler;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.ITestResult;
 import org.testng.annotations.BeforeMethod;
@@ -18,6 +21,7 @@ import com.automation.pages.AmazonHomePage;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
@@ -27,11 +31,15 @@ public class AmazonTest extends BaseTest {
 
     private static final Logger logger= LogManager.getLogger(AmazonTest.class);
     private AmazonHomePage amazonHomePage;
+    private SearchResultsPage results;
 
     @BeforeMethod
-    public void launchAmazonHomePage() {
+
+    public void launchAmazonHomePage() throws InterruptedException {
         driver.get(ConfigReader.get("base.url.amazon"));
+        Thread.sleep(2000);
         amazonHomePage = new AmazonHomePage(driver);
+        results=new SearchResultsPage(driver);
     }
 
     @Test(enabled=false)
@@ -131,5 +139,32 @@ public class AmazonTest extends BaseTest {
         amazonHomePage.selectSearchSuggestionWithKeyboard("iphone",2);
         String currentUrl=driver.getCurrentUrl().toLowerCase();
         Assert.assertTrue(currentUrl.contains("iphone"),"Auto complete selection failed. Current url is:"+currentUrl);
+    }
+
+    @Test(enabled = false)
+    public void verifySearchAndGoToCart()
+    {
+        amazonHomePage.header.searchProduct("Laptop");
+        amazonHomePage.header.clickCart();
+        Assert.assertTrue(driver.getTitle().contains("Amazon.in Shopping Cart"));
+        Assert.assertTrue(amazonHomePage.footer.isConditionsLinkDisplayed());
+    }
+
+    @Test(enabled = false)
+    public void verifySearchFilterAndAddToCart()
+    {
+        amazonHomePage.searchProduct("Pen");
+
+        results.applyFilter("Reynolds");
+
+
+        results.clickFirstProduct();
+        WindowHandler.switchToNewWindow(driver);
+        ProductDetailsPage detailsPage=new ProductDetailsPage(driver);
+        String title=detailsPage.getProductTitle();
+        detailsPage.addToCart();
+        detailsPage.clickCart();
+        Assert.assertTrue(detailsPage.isAddedToCart(title),"Product not added to cart");
+
     }
 }

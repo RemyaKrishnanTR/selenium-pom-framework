@@ -1,5 +1,7 @@
 package com.automation.pages;
 
+import com.automation.pages.common.FooterComponent;
+import com.automation.pages.common.HeaderComponent;
 import com.automation.utils.WaitUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -21,6 +23,8 @@ public class AmazonHomePage extends BasePage {
 
     private final Actions actions;
     WaitUtils waitutil;
+    public HeaderComponent header;
+    public FooterComponent footer;
 
     private static final Logger logger = LogManager.getLogger(AmazonHomePage.class);
 
@@ -41,6 +45,8 @@ public class AmazonHomePage extends BasePage {
 
     public AmazonHomePage(WebDriver driver) {
         super(driver);
+        this.header=new HeaderComponent(driver);
+        this.footer=new FooterComponent(driver);
         this.actions = new Actions(driver);
         this.waitutil = new WaitUtils(driver, 10);
         PageFactory.initElements(driver, this);
@@ -174,5 +180,11 @@ public class AmazonHomePage extends BasePage {
         {
             throw new RuntimeException("Failed to select suggestion via keyboard"+e.getMessage());
         }
+    }
+
+    public void searchProduct(String product)
+    {
+        searchtextbox.sendKeys(product);
+        searchButton.click();
     }
 }

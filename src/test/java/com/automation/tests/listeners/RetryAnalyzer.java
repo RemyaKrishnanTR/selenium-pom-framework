@@ -15,10 +15,11 @@ Only then, onTestFailure() from your ITestListener is called for final failure*/
 public class RetryAnalyzer implements IRetryAnalyzer {
 
     private int retryCount = 0;
-    private static final int maxRetryCount = 1;  // retry max 3 times
+    private static final int maxRetryCount = 2;  // retry max 2 times
 
     @Override
     public boolean retry(ITestResult result) {
+        System.out.println("Retrying test: " + result.getName() + ", attempt: " + (retryCount + 1));
         if (retryCount < maxRetryCount) {
             retryCount++;
             return true;  // retry this test

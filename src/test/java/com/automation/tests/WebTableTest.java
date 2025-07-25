@@ -43,6 +43,7 @@ public class WebTableTest extends BaseTest {
             }
             logger.info(joiner.toString());
             System.out.println();
+
         }
     }
 

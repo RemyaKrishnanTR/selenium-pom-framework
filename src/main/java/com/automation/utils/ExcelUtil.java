@@ -32,6 +32,7 @@ public class ExcelUtil {
         }
 
         for (int i = 0; i < rows.size(); i++) {
+
             Row row = sheet.createRow(i + 1);
             List<String> rowdata = rows.get(i);
             for (int j = 0; j < rowdata.size(); j++) {
@@ -92,8 +93,10 @@ public class ExcelUtil {
         for(int i=1;i<=sheet.getLastRowNum();i++)
         {
             Row row= sheet.getRow(i);
+
             if(row==null || isRowEmpty(row))continue;
             Map<String,String> rowData=new HashMap<>();
+
             for(int j=0;j<row.getLastCellNum();j++)
             {
                 String key=headerRow.getCell(j).getStringCellValue().trim();
