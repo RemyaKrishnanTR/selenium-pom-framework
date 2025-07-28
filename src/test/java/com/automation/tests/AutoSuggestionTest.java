@@ -44,6 +44,37 @@ public class AutoSuggestionTest extends BaseTest {
         Assert.assertTrue(driver.getTitle().toLowerCase().contains("iphone"));
     }
 
+
+    @Test
+    public void autoSuggestionNthTest()
+    {
+        driver.get(ConfigReader.get("base.url.amazon"));
+        AutoSuggestionPage suggestionPage=new AutoSuggestionPage(driver);
+        suggestionPage.enterSearchText("iphone");
+
+        Assert.assertTrue(suggestionPage.isSuggestionListDisplayed(),"suggestion list not displayed");
+
+        List<String> suggestionlist=suggestionPage.getSuggestionList();
+        Assert.assertTrue(suggestionlist.size()>2,"Expected more than 2 suggestions");
+
+        System.out.println("Suggestions:");
+        for(String s:suggestionlist)
+        {
+            System.out.println(s+",");
+            Assert.assertTrue(s.toLowerCase().contains("iphone"),"Irrelevant suggestion "+s);
+        }
+
+        String selected=suggestionPage.selectNthSuggestion(suggestionlist.size()-2);
+        System.out.println("Clicked on the suggestion "+selected);
+
+        Assert.assertTrue(driver.getTitle().toLowerCase().contains("iphone"),"Title doesn't reflect searched text "+driver.getTitle());
+
+    }
+
+
+
+
+
     @DataProvider(name="getTestData")
     public Object[][] getsearchData() throws IOException {
         List<Map<String,String>> data= util.readFromExcel(filepath,sheet);

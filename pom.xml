@@ -27,6 +27,18 @@
             <scope>provided</scope>
         </dependency>
 
+        <dependency>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>json-schema-validator</artifactId>
+            <version>5.4.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20230227</version>
+        </dependency>
+
         <!-- ✅ RestAssured Core -->
         <dependency>
             <groupId>io.rest-assured</groupId>

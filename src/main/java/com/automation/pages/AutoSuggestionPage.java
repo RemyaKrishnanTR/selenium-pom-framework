@@ -46,4 +46,34 @@ public class AutoSuggestionPage {
             }
         }
     }
+
+    // Fetch all suggestion texts
+    public List<String> getSuggestionList()
+    {
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfAllElements(suggestionList));
+        return suggestionList.stream().map(WebElement::getText).toList();
+    }
+
+    // Select nth suggestion (like 2nd last, 3rd, etc.)
+    public String selectNthSuggestion(int index)
+    {
+
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfAllElements(suggestionList));
+        if(index>=suggestionList.size())
+        {
+            throw new RuntimeException("invalid index");
+        }
+        String text=suggestionList.get(index).getText();
+        suggestionList.get(index).click();
+        return text;
+    }
+
+    public boolean isSuggestionListDisplayed()
+    {
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.visibilityOfAllElements(suggestionList));
+        return suggestionList.size()>0 && suggestionList.get(0).isDisplayed();
+    }
 }

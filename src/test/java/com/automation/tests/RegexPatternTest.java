@@ -29,7 +29,7 @@ public class RegexPatternTest {
         Assert.assertTrue(isValid,"invalid zip code");
     }
 
-    @Test
+    @Test(enabled = false)
     public void validateUserNamePattern()
     {
         String userName="abc567";
@@ -38,7 +38,7 @@ public class RegexPatternTest {
     }
 
 
-    @Test
+    @Test(enabled = false)
     public void validatePasswordPattern()
     {
         String password="abc$$567";

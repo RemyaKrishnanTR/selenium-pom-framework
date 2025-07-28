@@ -1,0 +1,36 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["id","name","email","projects"],
+  "properties": {
+                "id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string",
+                  "format": "email"
+                },
+                "projects": {
+                  "type": "array",
+                  "items":
+                  {
+                    "type": "object",
+                    "required": ["name","status"],
+                    "properties": {
+                        "name":
+                            {
+                            "type":"string"
+                            },
+                        "status":
+                            {
+                              "type":"string"
+                            }
+                    }
+                  }
+                }
+
+  }
+}

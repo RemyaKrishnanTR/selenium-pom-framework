@@ -29,7 +29,9 @@
             <class name="com.automation.tests.DBConnectionTest" enabled="true"/>
             <class name="com.automation.tests.DBRollBackTest" enabled="true"/>
             <class name="com.automation.tests.RegexPatternTest" enabled="true"/>
-
+            <class name="com.automation.tests.LoginTest" enabled="true"/>
+            <class name="com.automation.tests.api.JSONStringParasingTest" enabled="true"/>
+            <class name="com.automation.tests.api.JsonValidationTest" enabled="true"/>
         </classes>
     </test>
 </suite>
